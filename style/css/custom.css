@@ -2,12 +2,15 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-#maingo:hover {
+#mainsub:hover {
     background-color: darkslategrey;
     color: white;
     transition: 0.2s;
 }
 
-#maingo {
+#mainsub {
     transition: 0.2s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }

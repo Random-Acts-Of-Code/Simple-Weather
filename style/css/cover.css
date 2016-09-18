@@ -19,7 +19,7 @@ html, body {
 body {
     color: #fff;
     text-align: center;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    /*text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);*/
 }
 .site-wrapper {
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.5) inset;
