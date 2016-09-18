@@ -1,0 +1,13 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#maingo:hover {
+    background-color: darkslategrey;
+    color: white;
+    transition: 0.2s;
+}
+
+#maingo {
+    transition: 0.2s;
+}
