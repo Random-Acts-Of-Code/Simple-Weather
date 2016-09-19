@@ -1,0 +1,27 @@
+{
+  "name": "simple-weather",
+  "version": "0.0.1",
+  "description": "Simple weather application",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-bootstrap": "^2.1.3",
+    "koa": "^1.2.4",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Random-Acts-Of-Code/Simple-Weather.git"
+  },
+  "author": "Random Acts of Code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Random-Acts-Of-Code/Simple-Weather/issues"
+  },
+  "homepage": "https://github.com/Random-Acts-Of-Code/Simple-Weather#readme"
+}
