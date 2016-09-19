@@ -14,11 +14,12 @@
     "watch": "^0.19.2"
   },
   "scripts": {
+    "start": "node app.js",
     "build:clean": "rm -rf deploy && mkdir deploy", 
     "build:static": "cp -r static deploy",
     "build:angular": "mkdir -p deploy/node_modules/angular && cp node_modules/angular/angular.min.js deploy/node_modules/angular",
     "build:angular-ui": "mkdir -p deploy/node_modules/angular-ui-bootstrap/dist && cp node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js deploy/node_modules/angular-ui-bootstrap/dist",
-    "build:server": "cp app.js deploy && cp package.json deploy",
+    "build:server": "cp app.js deploy && cp package.json deploy && cp Dockerfile deploy",
     "build": "npm run build:clean && npm run build:static && npm run build:angular && npm run build:angular-ui && npm run build:server"
   },
   "repository": {
